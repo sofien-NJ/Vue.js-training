@@ -1,15 +1,16 @@
 <template>
     <div class="about">
-        <h1>{{ pagename }}</h1>
-        <p>{{ pagedescription }}</p>
+        <h1>Let's go somewhere!</h1>
+
+        <router-link to="/">Home</router-link><br />
+        <router-link to="/">Contact</router-link>
     </div>
 </template>
 <script>
 export default {
     data: function () {
         return {
-            pagename: "About us",
-            pagedescription: "These is the About Page",
+            title: "what about us ",
         };
     },
     name: "About",

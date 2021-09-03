@@ -20,8 +20,7 @@ import ContactUS from "@/components/Contact/contactus.vue";
 export default {
     data: function () {
         return {
-            pagename: "Contact us",
-            pagedescription: "These is the contact Page",
+            pagename: "Profile",
         };
     },
     name: "contact",

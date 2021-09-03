@@ -1,27 +1,19 @@
 <template>
     <div id="app">
         <app-header />
-        <p>
-            {{ formattedDate }}
-        </p>
-        <button @click="incrementMonth">INCREMENT MONTH</button>
+
         <router-view />
-        <v-footer>
-            <app-footer />
-        </v-footer>
     </div>
 </template>
 
 <script>
 import { mapActions, mapGetters } from "vuex";
 import AppHeader from "@/components/global/Appheader.vue";
-import AppFooter from "@/components/global/Appfooter.vue";
 
 export default {
     name: "App",
     components: {
         AppHeader,
-        AppFooter,
     },
 
     computed: {

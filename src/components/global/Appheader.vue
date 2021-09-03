@@ -1,25 +1,16 @@
 <template>
     <div class="container">
         <div class="header">
-            <div class="logo">
-                <router-link to="/">
-                    <a><img src="x.png" alt="" /></a>
+            <ul class="text-left">
+                <router-link to="/Contact" tag="li" exact>
+                    <a>Profile</a>
                 </router-link>
-            </div>
-            <ul class="text-right">
-                <router-link to="/" tag="li" exact>
-                    <a>Offre d'emploi</a>
-                </router-link>
-                <router-link to="/blog" tag="li">
-                    <a>Formation</a>
+                <router-link to="/about" tag="li">
+                    <a>Favoris</a>
                 </router-link>
 
                 <router-link to="/about" tag="li">
-                    <a>Espace d'inscription</a>
-                </router-link>
-
-                <router-link to="/contact" tag="li">
-                    <a>Contact</a>
+                    <a>Adresse de livraison</a>
                 </router-link>
             </ul>
         </div>
